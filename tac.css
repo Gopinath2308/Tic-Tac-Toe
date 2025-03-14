@@ -17,12 +17,12 @@ body h1{
     margin-bottom: 50px;
     color:transparent;
     font-size: 60px;
-    -webkit-text-stroke: 1.5px  rgb(10, 212, 243);; 
-    text-shadow: 1px 5px 30px  rgb(10, 212, 243);;
+    -webkit-text-stroke: 1.5px  rgb(10, 212, 243);
+    text-shadow: 1px 5px 50px  rgb(4, 189, 218);
 }
 body h1 span{
-    -webkit-text-stroke: 1.5px #fc1fae; 
-    text-shadow: 1px 5px 30px #f13aab;
+    -webkit-text-stroke: 1.5px #f5019f; 
+    text-shadow: 1px 5px 50px #f13aab;
 }
 .game{
     height: 60vmin;
@@ -65,14 +65,22 @@ body h1 span{
 }
 
 #reset-btn{
-    height: 50px;
-    width: 120px;
-    margin-top: 50px;
-    font-size: 17px;
+    height: 55px;
+    width: 150px;
+    margin-top: 40px;
+    font-size: 20px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-weight: 600;
+    font-weight: 1000;
     border-radius: 7px;
     border: none;
+    background: transparent;
+    border: 2px solid rgb(10, 212, 243);
+    -webkit-text-stroke: .5px #ff06a0; 
+    text-shadow: 0px 1px 20px #d60284;
+}
+#reset-btn span{
+    -webkit-text-stroke: .5px  rgb(4, 220, 253); 
+    text-shadow: 0px 1px 20px rgb(1, 146, 169);
 }
 .box:hover{
     box-shadow: inset 1px 1px 10px rgb(10, 212, 243);
